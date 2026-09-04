@@ -1,7 +1,7 @@
 ---
 title: "Physics textbook chapter ordering"
 author: "Mohammad Tanviruzzaman"
-date: "2026-90-04"
+date: "2026-09-04"
 categories: [physics]
 ---
 
