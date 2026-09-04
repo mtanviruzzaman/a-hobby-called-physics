@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-website-url.example.com/about.html</loc>
-    <lastmod>2026-09-04T19:24:02.585Z</lastmod>
+    <loc>https://mtanviruzzaman.github.io/a-hobby-called-physics/about.html</loc>
+    <lastmod>2026-09-04T19:42:23.473Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/posts/welcome/index.html</loc>
-    <lastmod>2026-09-04T19:24:02.583Z</lastmod>
+    <loc>https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/welcome/index.html</loc>
+    <lastmod>2026-09-04T19:42:23.474Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/posts/post-with-code/index.html</loc>
-    <lastmod>2026-09-04T19:24:02.584Z</lastmod>
+    <loc>https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/post-with-code/index.html</loc>
+    <lastmod>2026-09-04T19:42:23.474Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2026-09-04T19:24:02.583Z</lastmod>
+    <loc>https://mtanviruzzaman.github.io/a-hobby-called-physics/index.html</loc>
+    <lastmod>2026-09-04T19:42:23.473Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/first-post/index.html</loc>
+    <lastmod>2026-09-04T20:45:38.635Z</lastmod>
   </url>
 </urlset>
