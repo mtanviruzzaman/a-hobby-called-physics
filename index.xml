@@ -5,54 +5,44 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Y</title>
+<title>A Hobby Called Physics</title>
 <link>https://mtanviruzzaman.github.io/a-hobby-called-physics/</link>
 <atom:link href="https://mtanviruzzaman.github.io/a-hobby-called-physics/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Fri, 04 Sep 2026 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 04 Jun 2033 07:00:00 GMT</lastBuildDate>
 <item>
-  <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/post-with-code/</link>
+  <title>Physics textbook chapter ordering</title>
+  <dc:creator>Mohammad Tanviruzzaman</dc:creator>
+  <link>https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/first-post/</link>
   <description><![CDATA[ 
 
 
 
 
-
-<p>This is a post with executable code.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/post-with-code/</guid>
-  <pubDate>Fri, 04 Sep 2026 07:00:00 GMT</pubDate>
-  <media:content url="https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <link>https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/welcome/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<p>In <a href="https://archive.org/details/B-001-002-263/mode/2up">Evolution of Physics</a>, Einstein and Infeld argue that Physics has evolved in three sequential phases:</p>
+<ul>
+<li>Mechanical view:</li>
+</ul>
+<p>“In mechanics the future path of a moving body can be predicted and its past disclosed if its present condition and the forces acting upon it are known. Thus, for example, the future paths of all planets can be forseen. The active forces are Newton’s gravitational forces depending on the distance alone. The great results of classical mechanics suggest that the mechanical view can be consistently applied to all branches of physics, that all phenomena can be explained by the action of forces representing either attraction or repulsion, depending only upon distance and acting between unchangeable particles.</p>
+<p>In the kinetic theory of matter we see how this view, arising from mechanical problems, embraces the phenomena of heat and how it leads to a successful picture of the structure of matter.</p>
+<p>In the old theories of electric fluids, in the corpuscular and wave properties of light, we witness the further attempts to apply the mechanical view. But in the realm of electric and optical phenomena we meet grave difficulties in the application.</p>
+<p>A moving charge acts upon a magnetic needle. But the force, instead of depending only upon distance, depends also upon the velocity of the charge. The force neither repels nor attracts but acts perpendicular to the line connecting the needle and the charge.</p>
+<p>In optics we have to decide in favor of the wave theory against the corpuscular theory of light. Waves spreading in a medium consisting of particles, with mechanical forces acting between them, are certainly a mechanical concept. But what is the medium through which light spreads and what are its mechanical properties? There is no hope of reducing the optical phenomena to the mechanical ones before this question is answered. But the difficulties in solving this problem are so great that we have to give it up and thus give up the mechanical view as well.”</p>
+<ul>
+<li>Field view:</li>
+</ul>
+<p>“A new concept appears in physics”</p>
+<ul>
+<li>Quanta view:</li>
+</ul>
 
 
 
  ]]></description>
-  <category>news</category>
-  <guid>https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/welcome/</guid>
-  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
+  <category>physics</category>
+  <guid>https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/first-post/</guid>
+  <pubDate>Sat, 04 Jun 2033 07:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
