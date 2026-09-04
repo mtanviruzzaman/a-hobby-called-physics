@@ -27,7 +27,7 @@ In optics we have to decide in favor of the wave theory against the corpuscular 
 <details>
 <summary>Field view</summary>
 
-"A new concept appears in physics, the most important invention since Newton's time: the field. It needed great scientific imagination to realize that it is not the charges nor the particles but the field in the space between the chanrges and the particles which is essential for the description of physical phenomenon. The field concept proves most successful and leads to the formulation of Maxwell's equations describing the structure of the electromagnetic field and governing the electric as well as the optical phenomena.
+"A new concept appears in physics, the most important invention since Newton's time: the field. It needed great scientific imagination to realize that it is not the charges nor the particles but the field in the space between the charges and the particles which is essential for the description of physical phenomenon. The field concept proves most successful and leads to the formulation of Maxwell's equations describing the structure of the electromagnetic field and governing the electric as well as the optical phenomena.
 
 The theory of relativity arises from the field problems. The contradictions and inconsistencies of the old theories force us to ascribe new properties to the time-space continuum, to the scene of all events in our physical world.
 
