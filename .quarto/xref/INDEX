@@ -13,5 +13,35 @@
   },
   "posts/first-post/index.qmd": {
     "index.html": "a44e3e56"
+  },
+  "mistake-log.md": {
+    "mistake-log.html": "641c6f62"
+  },
+  "study/01-young-freedman/ch01/notes.qmd": {
+    "notes.html": "ec24bc16"
+  },
+  "study/01-young-freedman/ch01/solutions.qmd": {
+    "solutions.html": "bf485d94"
+  },
+  "study/01-young-freedman/ch01/retrospective.qmd": {
+    "retrospective.html": "7ed2a629"
+  },
+  "study/01-young-freedman/ch03/notes.qmd": {
+    "notes.html": "bd028e4d"
+  },
+  "study/01-young-freedman/ch03/solutions.qmd": {
+    "solutions.html": "3c753aa1"
+  },
+  "study/01-young-freedman/ch03/retrospective.qmd": {
+    "retrospective.html": "4a0e4db8"
+  },
+  "study/01-young-freedman/ch02/notes.qmd": {
+    "notes.html": "8d0980d4"
+  },
+  "study/01-young-freedman/ch02/solutions.qmd": {
+    "solutions.html": "f7247dab"
+  },
+  "study/01-young-freedman/ch02/retrospective.qmd": {
+    "retrospective.html": "ab668f97"
   }
 }

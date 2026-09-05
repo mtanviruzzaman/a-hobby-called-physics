@@ -48,7 +48,7 @@ Is light a wave or a shower of photons? Is a beam of electrons a shower of eleme
 
 </details>
 
-The chapters in a typlical undergrad Physics textbook follow these three phases of evolution. For example,
+The chapters in a typlical undergrad Physics textbook follow the same sequence as the phases. For example,
 
 * Univerity Physics (14th edition) by Young and Freedman: 
 
@@ -61,9 +61,3 @@ Chapters 1-24: Mechanical view; chapters 25-36: Field view; chapters 37-42: quan
 * Physics (3rd edition) by Halliday and Resnick:
 
 Chapters 1-25: mechanical view; chapters 26-48: field view; chapters 49-50: quanta view.
-
-::: {.callout-info}
-## Takeaway
-
-Knowing the history of Physics can put its ideas in richer context.
-:::
