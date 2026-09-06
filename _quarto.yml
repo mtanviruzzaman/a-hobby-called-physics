@@ -19,5 +19,10 @@ format:
       - brand
     css: styles.css
 
-
+comments:
+  giscus:
+    repo: mtanviruzzaman/a-hobby-called-physics
+    category: Announcements
+    mapping: pathname
+    reactions-enabled: true
 
