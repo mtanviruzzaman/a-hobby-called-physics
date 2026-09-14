@@ -24,7 +24,7 @@ $$
 
 First, we shall find out how $\left| \vec{a}_{average} \right|$ looks like geometrically and then we shall reason how the geometric view changes when $\Delta t \to 0$.
 
-We make the below observation about vectors in general: if we have two vectors ($\vec{v}_1$ and $\vec{v}_2$) each perpendicular to two other vectors ($\vec{r}_1$ and $\vec{r}_2$), then these two pairs of vectors have same angle ($\theta$) between them. 
+We make the below observation about vectors in general: if we have two vectors ($\vec{v}_1$ and $\vec{v}_2$) perpendicular to two other vectors ($\vec{r}_1$ and $\vec{r}_2$), then these two pairs of vectors have same angle ($\theta$) between them. 
 
 ![](circ_motion_2.jpg){width=100% fig-align="center"}
 
@@ -52,7 +52,7 @@ $$
 \end{align}
 $$
 
-Consequently, the magnitude of the centripetal acceleration for a given circular path is proportional to the square of the speed. If we want twice the speed, we need four times as much centripetal acceleration.
+Consequently, the magnitude of the centripetal acceleration for a given circular path is proportional to the square of the speed. If we want to sustain twice the speed, we need four times the centripetal acceleration.
 
 
 ## Approach 2: Another Geometric Derivation
