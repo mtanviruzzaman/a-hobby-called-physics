@@ -222,14 +222,13 @@ window.Quarto = {
 \theta = \frac{\text{chord-length}}{R} = \frac{v \cdot \Delta t}{R}
 \]</span></p>
 <p>On the other hand, from the right figure above, as <span class="math inline">\(\Delta t \to 0, |\Delta v| \to\)</span> <span style="color: cyan; font-weight: 100">chord-length</span> and we have another expression for <span class="math inline">\(\theta\)</span>: <span class="math display">\[
-\theta = \frac{\text{chord-length}}{v} = \frac{|\Delta \vec{v}|}{v}
+\theta = \lim_{\Delta t \to 0} \frac{\text{chord-length}}{v} = \lim_{\Delta t \to 0} \frac{|\Delta \vec{v}|}{v}
 \]</span></p>
 <p>From the two expressions of <span class="math inline">\(\theta\)</span>, we have:</p>
 <p><span class="math display">\[
 \begin{align}
-\frac{v \cdot \Delta t}{R} &amp;\approx \frac{|\Delta \vec{v}|}{v} \\
-\frac{v^2}{R} &amp;\approx \frac{|\Delta \vec{v}|}{\Delta t} \\
-\lim_{\Delta t \to 0} \frac{v^2}{R} &amp;= \lim_{\Delta t \to 0} \frac{|\Delta \vec{v}|}{\Delta t} \\
+\frac{v \cdot \Delta t}{R} &amp;= \lim_{\Delta t \to 0} \frac{|\Delta \vec{v}|}{v} \\
+\frac{v^2}{R} &amp;= \lim_{\Delta t \to 0} \frac{|\Delta \vec{v}|}{\Delta t} \\
 \frac{v^2}{R} &amp;= |\vec{a}|
 \end{align}
 \]</span></p>
