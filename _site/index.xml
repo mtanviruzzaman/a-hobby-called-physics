@@ -10,7 +10,57 @@
 <atom:link href="https://mtanviruzzaman.github.io/a-hobby-called-physics/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Fri, 04 Sep 2026 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 14 Sep 2026 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Cetripetal Acceleration in Uniform Circular Motion</title>
+  <dc:creator>Mohammad Tanviruzzaman</dc:creator>
+  <link>https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/circular-motion/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>It is useful to think of acceleration vector having just two components: one parallel to the velocity vector and the other perpendicular to the velocity vector. The parallel component explains changes in speed and the perpendicular component explains changes in direction.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/circular-motion/circ_motion_1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:20.0%"></p>
+</figure>
+</div>
+<p>In uniform circular motion, the speed is constant. So, the entire acceleration vector consists of the perpendicular component. At a given point on the circle, the velocity vector is tangent to the circular path and the acceleration vector is directed towards the center along a radius.</p>
+<p>We want to find the magnitude of this acceleration vector.</p>
+<section id="approach-1-geometric-derivation" class="level2">
+<h2 class="anchored" data-anchor-id="approach-1-geometric-derivation">Approach 1: Geometric Derivation</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Balign%7D%0A%5Cleft%7C%20%5Cvec%7Ba%7D_%7Baverage%7D%20%5Cright%7C%20&amp;=%20%5Cfrac%7B%5Cleft%7C%20%5CDelta%20%5Cvec%7Bv%7D%20%5Cright%7C%7D%7B%5CDelta%20t%7D%20%5C%5C%0A%5Cleft%7C%5Cvec%7Ba%7D%5Cright%7C%20&amp;=%20%5Clim_%7B%5CDelta%20t%20%5Cto%200%7D%20%5Cleft%7C%20%5Cvec%7Ba%7D_%7Baverage%7D%20%5Cright%7C%0A%5Cend%7Balign%7D%0A"></p>
+<p>First, we shall find out how <img src="https://latex.codecogs.com/png.latex?%5Cleft%7C%20%5Cvec%7Ba%7D_%7Baverage%7D%20%5Cright%7C"> looks like geometrically and then we shall reason how the geometric view changes when <img src="https://latex.codecogs.com/png.latex?%5CDelta%20t%20%5Cto%200">.</p>
+<p>We make the below observation about vectors in general: if we have two vectors (<img src="https://latex.codecogs.com/png.latex?%5Cvec%7Bv%7D_1"> and <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Bv%7D_2">) each perpendicular to two other vectors (<img src="https://latex.codecogs.com/png.latex?%5Cvec%7Br%7D_1"> and <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Br%7D_2">), then these two pairs of vectors have same angle (<img src="https://latex.codecogs.com/png.latex?%5Ctheta">) between them.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/circular-motion/circ_motion_2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+<p>Now, consider the below situation where at times <img src="https://latex.codecogs.com/png.latex?t_1"> and <img src="https://latex.codecogs.com/png.latex?t_2%20(=%20t_1%20+%20%5CDelta%20t)"> a particle in uniform circular motion has velocities <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Bv%7D_1"> and <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Bv%7D_2">. Here <img src="https://latex.codecogs.com/png.latex?%7C%5Cvec%7Bv%7D_1%7C%20=%20%7C%5Cvec%7Bv%7D_1%7C%20=%20v">.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/circular-motion/circ_motion_3.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+<p>When we measure <img src="https://latex.codecogs.com/png.latex?%5Ctheta"> in radians, from the left figure above, we have: <img src="https://latex.codecogs.com/png.latex?%0A%5Ctheta%20=%20%5Cfrac%7B%5Ctext%7Bchord-length%7D%7D%7BR%7D%20=%20%5Cfrac%7Bv%20%5Ccdot%20%5CDelta%20t%7D%7BR%7D%0A"></p>
+<p>On the other hand, from the right figure above, as <img src="https://latex.codecogs.com/png.latex?%5CDelta%20t%20%5Cto%200,%20%7C%5CDelta%20v%7C%20%5Cto"> <span style="color: cyan; font-weight: 100">chord-length</span> and we have another expression for <img src="https://latex.codecogs.com/png.latex?%5Ctheta">: <img src="https://latex.codecogs.com/png.latex?%0A%5Ctheta%20=%20%5Cfrac%7B%5Ctext%7Bchord-length%7D%7D%7Bv%7D%20=%20%5Cfrac%7B%7C%5CDelta%20%5Cvec%7Bv%7D%7C%7D%7Bv%7D%0A"></p>
+<p>From the two expressions of <img src="https://latex.codecogs.com/png.latex?%5Ctheta">, we have:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Balign%7D%0A%5Cfrac%7Bv%20%5Ccdot%20%5CDelta%20t%7D%7BR%7D%20&amp;%5Capprox%20%5Cfrac%7B%7C%5CDelta%20%5Cvec%7Bv%7D%7C%7D%7Bv%7D%20%5C%5C%0A%5Cfrac%7Bv%5E2%7D%7BR%7D%20&amp;%5Capprox%20%5Cfrac%7B%7C%5CDelta%20%5Cvec%7Bv%7D%7C%7D%7B%5CDelta%20t%7D%20%5C%5C%0A%5Clim_%7B%5CDelta%20t%20%5Cto%200%7D%20%5Cfrac%7Bv%5E2%7D%7BR%7D%20&amp;=%20%5Clim_%7B%5CDelta%20t%20%5Cto%200%7D%20%5Cfrac%7B%7C%5CDelta%20%5Cvec%7Bv%7D%7C%7D%7B%5CDelta%20t%7D%20%5C%5C%0A%5Cfrac%7Bv%5E2%7D%7BR%7D%20&amp;=%20%7C%5Cvec%7Ba%7D%7C%0A%5Cend%7Balign%7D%0A"></p>
+<p>Consequently, the magnitude of the centripetal acceleration for a given circular path is proportional to the square of the speed. If we want twice the speed, we need four times as much centripetal acceleration.</p>
+</section>
+<section id="approach-2-another-geometric-derivation" class="level2">
+<h2 class="anchored" data-anchor-id="approach-2-another-geometric-derivation">Approach 2: Another Geometric Derivation</h2>
+
+
+</section>
+
+ ]]></description>
+  <category>physics</category>
+  <guid>https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/circular-motion/</guid>
+  <pubDate>Mon, 14 Sep 2026 07:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Hidden history in Physics textbooks</title>
   <dc:creator>Mohammad Tanviruzzaman</dc:creator>

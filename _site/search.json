@@ -18,6 +18,34 @@
     "href": "index.html",
     "title": "A Hobby Called Physics",
     "section": "",
-    "text": "Hidden history in Physics textbooks\n\n\n\nphysics\n\n\n\n\n\n\n\n\n\nSep 4, 2026\n\n\nMohammad Tanviruzzaman\n\n\n\n\n\nNo matching items"
+    "text": "Cetripetal Acceleration in Uniform Circular Motion\n\n\n\nphysics\n\n\n\n\n\n\n\n\n\nSep 14, 2026\n\n\nMohammad Tanviruzzaman\n\n\n\n\n\n\n\n\n\n\n\n\nHidden history in Physics textbooks\n\n\n\nphysics\n\n\n\n\n\n\n\n\n\nSep 4, 2026\n\n\nMohammad Tanviruzzaman\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/circular-motion/index.html",
+    "href": "posts/circular-motion/index.html",
+    "title": "Cetripetal Acceleration in Uniform Circular Motion",
+    "section": "",
+    "text": "It is useful to think of acceleration vector having just two components: one parallel to the velocity vector and the other perpendicular to the velocity vector. The parallel component explains changes in speed and the perpendicular component explains changes in direction.\nIn uniform circular motion, the speed is constant. So, the entire acceleration vector consists of the perpendicular component. At a given point on the circle, the velocity vector is tangent to the circular path and the acceleration vector is directed towards the center along a radius.\nWe want to find the magnitude of this acceleration vector."
+  },
+  {
+    "objectID": "posts/circular-motion/index.html#approach-1-geometric-derivation",
+    "href": "posts/circular-motion/index.html#approach-1-geometric-derivation",
+    "title": "Cetripetal Acceleration in Uniform Circular Motion",
+    "section": "Approach 1: Geometric Derivation",
+    "text": "Approach 1: Geometric Derivation\n\\[\n\\begin{align}\n\\left| \\vec{a}_{average} \\right| &= \\frac{\\left| \\Delta \\vec{v} \\right|}{\\Delta t} \\\\\n\\left|\\vec{a}\\right| &= \\lim_{\\Delta t \\to 0} \\left| \\vec{a}_{average} \\right|\n\\end{align}\n\\]\nFirst, we shall find out how \\(\\left| \\vec{a}_{average} \\right|\\) looks like geometrically and then we shall reason how the geometric view changes when \\(\\Delta t \\to 0\\).\nWe make the below observation about vectors in general: if we have two vectors (\\(\\vec{v}_1\\) and \\(\\vec{v}_2\\)) each perpendicular to two other vectors (\\(\\vec{r}_1\\) and \\(\\vec{r}_2\\)), then these two pairs of vectors have same angle (\\(\\theta\\)) between them.\n\n\n\n\n\nNow, consider the below situation where at times \\(t_1\\) and \\(t_2 (= t_1 + \\Delta t)\\) a particle in uniform circular motion has velocities \\(\\vec{v}_1\\) and \\(\\vec{v}_2\\). Here \\(|\\vec{v}_1| = |\\vec{v}_1| = v\\).\n\n\n\n\n\nWhen we measure \\(\\theta\\) in radians, from the left figure above, we have: \\[\n\\theta = \\frac{\\text{chord-length}}{R} = \\frac{v \\cdot \\Delta t}{R}\n\\]\nOn the other hand, from the right figure above, as \\(\\Delta t \\to 0, |\\Delta v| \\to\\) chord-length and we have another expression for \\(\\theta\\): \\[\n\\theta = \\frac{\\text{chord-length}}{v} = \\frac{|\\Delta \\vec{v}|}{v}\n\\]\nFrom the two expressions of \\(\\theta\\), we have:\n\\[\n\\begin{align}\n\\frac{v \\cdot \\Delta t}{R} &\\approx \\frac{|\\Delta \\vec{v}|}{v} \\\\\n\\frac{v^2}{R} &\\approx \\frac{|\\Delta \\vec{v}|}{\\Delta t} \\\\\n\\lim_{\\Delta t \\to 0} \\frac{v^2}{R} &= \\lim_{\\Delta t \\to 0} \\frac{|\\Delta \\vec{v}|}{\\Delta t} \\\\\n\\frac{v^2}{R} &= |\\vec{a}|\n\\end{align}\n\\]\nConsequently, the magnitude of the centripetal acceleration for a given circular path is proportional to the square of the speed. If we want twice the speed, we need four times as much centripetal acceleration."
+  },
+  {
+    "objectID": "posts/circular-motion/index.html#approach-1-another-geometric-derivation",
+    "href": "posts/circular-motion/index.html#approach-1-another-geometric-derivation",
+    "title": "Cetripetal Acceleration in Uniform Circular Motion",
+    "section": "Approach 1: Another Geometric Derivation",
+    "text": "Approach 1: Another Geometric Derivation"
+  },
+  {
+    "objectID": "posts/circular-motion/index.html#approach-2-another-geometric-derivation",
+    "href": "posts/circular-motion/index.html#approach-2-another-geometric-derivation",
+    "title": "Cetripetal Acceleration in Uniform Circular Motion",
+    "section": "Approach 2: Another Geometric Derivation",
+    "text": "Approach 2: Another Geometric Derivation"
   }
 ]

@@ -1,0 +1,59 @@
+---
+title: "Cetripetal Acceleration in Uniform Circular Motion"
+author: "Mohammad Tanviruzzaman"
+date: "2026-09-14"
+categories: [physics]
+---
+
+It is useful to think of acceleration vector having just two components: one parallel to the velocity vector and the other perpendicular to the velocity vector. The parallel component explains changes in speed and the perpendicular component explains changes in direction.
+
+![](circ_motion_1.jpg){width=20% fig-align="center"}
+
+In uniform circular motion, the speed is constant. So, the entire acceleration vector consists of the perpendicular component. At a given point on the circle, the velocity vector is tangent to the circular path and the acceleration vector is directed towards the center along a radius.
+
+We want to find the magnitude of this acceleration vector.
+
+## Approach 1: Geometric Derivation
+
+$$
+\begin{align}
+\left| \vec{a}_{average} \right| &= \frac{\left| \Delta \vec{v} \right|}{\Delta t} \\
+\left|\vec{a}\right| &= \lim_{\Delta t \to 0} \left| \vec{a}_{average} \right|
+\end{align}
+$$
+
+First, we shall find out how $\left| \vec{a}_{average} \right|$ looks like geometrically and then we shall reason how the geometric view changes when $\Delta t \to 0$.
+
+We make the below observation about vectors in general: if we have two vectors ($\vec{v}_1$ and $\vec{v}_2$) each perpendicular to two other vectors ($\vec{r}_1$ and $\vec{r}_2$), then these two pairs of vectors have same angle ($\theta$) between them. 
+
+![](circ_motion_2.jpg){width=50% fig-align="center"}
+
+Now, consider the below situation where at times $t_1$ and $t_2 (= t_1 + \Delta t)$ a particle in uniform circular motion has velocities $\vec{v}_1$ and $\vec{v}_2$. Here $|\vec{v}_1| = |\vec{v}_1| = v$.
+
+![](circ_motion_3.jpg){width=50% fig-align="center"}
+
+When we measure $\theta$ in radians, from the left figure above, we have:
+$$
+\theta = \frac{\text{chord-length}}{R} = \frac{v \cdot \Delta t}{R}
+$$
+
+On the other hand, from the right figure above, as $\Delta t \to 0, |\Delta v| \to$ <span style="color: cyan; font-weight: 100">chord-length</span> and we have another expression for $\theta$:
+$$
+\theta = \frac{\text{chord-length}}{v} = \frac{|\Delta \vec{v}|}{v}
+$$
+
+From the two expressions of $\theta$, we have:
+
+$$
+\begin{align}
+\frac{v \cdot \Delta t}{R} &\approx \frac{|\Delta \vec{v}|}{v} \\
+\frac{v^2}{R} &\approx \frac{|\Delta \vec{v}|}{\Delta t} \\
+\lim_{\Delta t \to 0} \frac{v^2}{R} &= \lim_{\Delta t \to 0} \frac{|\Delta \vec{v}|}{\Delta t} \\
+\frac{v^2}{R} &= |\vec{a}|
+\end{align}
+$$
+
+Consequently, the magnitude of the centripetal acceleration for a given circular path is proportional to the square of the speed. If we want twice the speed, we need four times as much centripetal acceleration.
+
+
+## Approach 2: Another Geometric Derivation
