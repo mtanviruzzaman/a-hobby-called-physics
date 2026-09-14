@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Mohammad Tanviruzzaman">
+<meta name="dcterms.date" content="2026-09-14">
 
-<title>A Hobby Called Physics</title>
+<title>Cetripetal Acceleration in Uniform Circular Motion – A Hobby Called Physics</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,25 +31,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,35 +75,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -135,17 +106,17 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="A Hobby Called Physics" href="index.xml" data-external="1"></head>
+<link rel="stylesheet" href="../../styles.css">
+</head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">A Hobby Called Physics</span>
     </a>
   </div>
@@ -156,7 +127,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -177,87 +148,100 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cGh5c2ljcw==">physics <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cetripetal Acceleration in Uniform Circular Motion</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">physics</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Mohammad Tanviruzzaman </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 14, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cGh5c2ljcw==" data-listing-date-sort="1789369200000" data-listing-file-modified-sort="1789416373749" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="335">
-<div class="thumbnail"><a href="./posts/circular-motion/index.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="posts/circular-motion/circ_motion_1.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/circular-motion/index.html" class="no-external">Cetripetal Acceleration in Uniform Circular Motion</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGh5c2ljcw=='); return false;">physics</div>
-
+<p>It is useful to think of acceleration vector having just two components: one parallel to the velocity vector and the other perpendicular to the velocity vector. The parallel component explains changes in speed and the perpendicular component explains changes in direction.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="circ_motion_1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:20.0%"></p>
+</figure>
 </div>
-<div class="delink listing-description"><a href="./posts/circular-motion/index.html" class="no-external">
-It is useful to think of acceleration vector having just two components: one parallel to the velocity vector and the other perpendicular to the velocity vector. The parallel…
-</a></div>
+<p>In uniform circular motion, the speed is constant. So, the entire acceleration vector consists of the perpendicular component. At a given point on the circle, the velocity vector is tangent to the circular path and the acceleration vector is directed towards the center along a radius.</p>
+<p>We want to find the magnitude of this acceleration vector.</p>
+<section id="approach-1-geometric-derivation" class="level2">
+<h2 class="anchored" data-anchor-id="approach-1-geometric-derivation">Approach 1: Geometric Derivation</h2>
+<p><span class="math display">\[
+\begin{align}
+\left| \vec{a}_{average} \right| &amp;= \frac{\left| \Delta \vec{v} \right|}{\Delta t} \\
+\left|\vec{a}\right| &amp;= \lim_{\Delta t \to 0} \left| \vec{a}_{average} \right|
+\end{align}
+\]</span></p>
+<p>First, we shall find out how <span class="math inline">\(\left| \vec{a}_{average} \right|\)</span> looks like geometrically and then we shall reason how the geometric view changes when <span class="math inline">\(\Delta t \to 0\)</span>.</p>
+<p>We make the below observation about vectors in general: if we have two vectors (<span class="math inline">\(\vec{v}_1\)</span> and <span class="math inline">\(\vec{v}_2\)</span>) each perpendicular to two other vectors (<span class="math inline">\(\vec{r}_1\)</span> and <span class="math inline">\(\vec{r}_2\)</span>), then these two pairs of vectors have same angle (<span class="math inline">\(\theta\)</span>) between them.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="circ_motion_2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
 </div>
-<div class="metadata">
-<a href="./posts/circular-motion/index.html" class="no-external">
-<div class="listing-date">
-Sep 14, 2026
+<p>Now, consider the below situation where at times <span class="math inline">\(t_1\)</span> and <span class="math inline">\(t_2 (= t_1 + \Delta t)\)</span> a particle in uniform circular motion has velocities <span class="math inline">\(\vec{v}_1\)</span> and <span class="math inline">\(\vec{v}_2\)</span>. Here <span class="math inline">\(|\vec{v}_1| = |\vec{v}_1| = v\)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="circ_motion_3.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
 </div>
-<div class="listing-author">
-Mohammad Tanviruzzaman
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="cGh5c2ljcw==" data-listing-date-sort="1788505200000" data-listing-file-modified-sort="1788990412151" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1138">
-<div class="thumbnail"><a href="./posts/first-post/index.html" class="no-external">
+<p>When we measure <span class="math inline">\(\theta\)</span> in radians, from the left figure above, we have: <span class="math display">\[
+\theta = \frac{\text{chord-length}}{R} = \frac{v \cdot \Delta t}{R}
+\]</span></p>
+<p>On the other hand, from the right figure above, as <span class="math inline">\(\Delta t \to 0, |\Delta v| \to\)</span> <span style="color: cyan; font-weight: 100">chord-length</span> and we have another expression for <span class="math inline">\(\theta\)</span>: <span class="math display">\[
+\theta = \frac{\text{chord-length}}{v} = \frac{|\Delta \vec{v}|}{v}
+\]</span></p>
+<p>From the two expressions of <span class="math inline">\(\theta\)</span>, we have:</p>
+<p><span class="math display">\[
+\begin{align}
+\frac{v \cdot \Delta t}{R} &amp;\approx \frac{|\Delta \vec{v}|}{v} \\
+\frac{v^2}{R} &amp;\approx \frac{|\Delta \vec{v}|}{\Delta t} \\
+\lim_{\Delta t \to 0} \frac{v^2}{R} &amp;= \lim_{\Delta t \to 0} \frac{|\Delta \vec{v}|}{\Delta t} \\
+\frac{v^2}{R} &amp;= |\vec{a}|
+\end{align}
+\]</span></p>
+<p>Consequently, the magnitude of the centripetal acceleration for a given circular path is proportional to the square of the speed. If we want twice the speed, we need four times as much centripetal acceleration.</p>
+</section>
+<section id="approach-2-another-geometric-derivation" class="level2">
+<h2 class="anchored" data-anchor-id="approach-2-another-geometric-derivation">Approach 2: Another Geometric Derivation</h2>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/first-post/index.html" class="no-external">Hidden history in Physics textbooks</a>
-</h3>
-<div class="listing-categories">
+</section>
 
-<div class="listing-category" onclick="window.quartoListingCategory('cGh5c2ljcw=='); return false;">physics</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/first-post/index.html" class="no-external">
-<strong>TL;DR:</strong> Ideas are presented in roughly the order they were discovered.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/first-post/index.html" class="no-external">
-<div class="listing-date">
-Sep 4, 2026
-</div>
-<div class="listing-author">
-Mohammad Tanviruzzaman
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
