@@ -52,7 +52,7 @@ $$
 \end{align}
 $$
 
-Consequently, the magnitude of the centripetal acceleration for a given circular path is proportional to the square of the speed. If we want to sustain twice the speed, we need four times the centripetal acceleration.
+Consequently, for a fixed circular path, the magnitude of the centripetal acceleration is proportional to the square of the speed. If we want to sustain twice the speed, we need four times the centripetal acceleration.
 
 
 ## Approach 2: Another Geometric Derivation
