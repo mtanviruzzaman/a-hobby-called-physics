@@ -39,16 +39,15 @@ $$
 
 On the other hand, from the right figure above, as $\Delta t \to 0, |\Delta v| \to$ <span style="color: cyan; font-weight: 100">chord-length</span> and we have another expression for $\theta$:
 $$
-\theta = \frac{\text{chord-length}}{v} = \frac{|\Delta \vec{v}|}{v}
+\theta = \lim_{\Delta t \to 0} \frac{\text{chord-length}}{v} = \lim_{\Delta t \to 0} \frac{|\Delta \vec{v}|}{v}
 $$
 
 From the two expressions of $\theta$, we have:
 
 $$
 \begin{align}
-\frac{v \cdot \Delta t}{R} &\approx \frac{|\Delta \vec{v}|}{v} \\
-\frac{v^2}{R} &\approx \frac{|\Delta \vec{v}|}{\Delta t} \\
-\lim_{\Delta t \to 0} \frac{v^2}{R} &= \lim_{\Delta t \to 0} \frac{|\Delta \vec{v}|}{\Delta t} \\
+\frac{v \cdot \Delta t}{R} &= \lim_{\Delta t \to 0} \frac{|\Delta \vec{v}|}{v} \\
+\frac{v^2}{R} &= \lim_{\Delta t \to 0} \frac{|\Delta \vec{v}|}{\Delta t} \\
 \frac{v^2}{R} &= |\vec{a}|
 \end{align}
 $$
@@ -57,3 +56,4 @@ Consequently, the magnitude of the centripetal acceleration for a given circular
 
 
 ## Approach 2: Another Geometric Derivation
+
