@@ -7,7 +7,7 @@ categories: [physics]
 
 It is useful to think of acceleration vector having just two components: one parallel to the velocity vector and the other perpendicular to the velocity vector. The parallel component explains changes in speed and the perpendicular component explains changes in direction.
 
-![](circ_motion_1.jpg){width=20% fig-align="center"}
+![](circ_motion_1.jpg){width=30% fig-align="center"}
 
 In uniform circular motion, the speed is constant. So, the entire acceleration vector consists of the perpendicular component. At a given point on the circle, the velocity vector is tangent to the circular path and the acceleration vector is directed towards the center along a radius.
 
@@ -26,11 +26,11 @@ First, we shall find out how $\left| \vec{a}_{average} \right|$ looks like geome
 
 We make the below observation about vectors in general: if we have two vectors ($\vec{v}_1$ and $\vec{v}_2$) each perpendicular to two other vectors ($\vec{r}_1$ and $\vec{r}_2$), then these two pairs of vectors have same angle ($\theta$) between them. 
 
-![](circ_motion_2.jpg){width=50% fig-align="center"}
+![](circ_motion_2.jpg){width=100% fig-align="center"}
 
 Now, consider the below situation where at times $t_1$ and $t_2 (= t_1 + \Delta t)$ a particle in uniform circular motion has velocities $\vec{v}_1$ and $\vec{v}_2$. Here $|\vec{v}_1| = |\vec{v}_1| = v$.
 
-![](circ_motion_3.jpg){width=50% fig-align="center"}
+![](circ_motion_3.jpg){width=100% fig-align="center"}
 
 When we measure $\theta$ in radians, from the left figure above, we have:
 $$

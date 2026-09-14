@@ -23,7 +23,7 @@
 <p>It is useful to think of acceleration vector having just two components: one parallel to the velocity vector and the other perpendicular to the velocity vector. The parallel component explains changes in speed and the perpendicular component explains changes in direction.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/circular-motion/circ_motion_1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:20.0%"></p>
+<p><img src="https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/circular-motion/circ_motion_1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:30.0%"></p>
 </figure>
 </div>
 <p>In uniform circular motion, the speed is constant. So, the entire acceleration vector consists of the perpendicular component. At a given point on the circle, the velocity vector is tangent to the circular path and the acceleration vector is directed towards the center along a radius.</p>
@@ -35,13 +35,13 @@
 <p>We make the below observation about vectors in general: if we have two vectors (<img src="https://latex.codecogs.com/png.latex?%5Cvec%7Bv%7D_1"> and <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Bv%7D_2">) each perpendicular to two other vectors (<img src="https://latex.codecogs.com/png.latex?%5Cvec%7Br%7D_1"> and <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Br%7D_2">), then these two pairs of vectors have same angle (<img src="https://latex.codecogs.com/png.latex?%5Ctheta">) between them.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/circular-motion/circ_motion_2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+<p><img src="https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/circular-motion/circ_motion_2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
 </figure>
 </div>
 <p>Now, consider the below situation where at times <img src="https://latex.codecogs.com/png.latex?t_1"> and <img src="https://latex.codecogs.com/png.latex?t_2%20(=%20t_1%20+%20%5CDelta%20t)"> a particle in uniform circular motion has velocities <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Bv%7D_1"> and <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Bv%7D_2">. Here <img src="https://latex.codecogs.com/png.latex?%7C%5Cvec%7Bv%7D_1%7C%20=%20%7C%5Cvec%7Bv%7D_1%7C%20=%20v">.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/circular-motion/circ_motion_3.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+<p><img src="https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/circular-motion/circ_motion_3.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
 </figure>
 </div>
 <p>When we measure <img src="https://latex.codecogs.com/png.latex?%5Ctheta"> in radians, from the left figure above, we have: <img src="https://latex.codecogs.com/png.latex?%0A%5Ctheta%20=%20%5Cfrac%7B%5Ctext%7Bchord-length%7D%7D%7BR%7D%20=%20%5Cfrac%7Bv%20%5Ccdot%20%5CDelta%20t%7D%7BR%7D%0A"></p>
