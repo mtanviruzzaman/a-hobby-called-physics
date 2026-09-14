@@ -236,6 +236,63 @@ window.Quarto = {
 </section>
 <section id="approach-2-another-geometric-derivation" class="level2">
 <h2 class="anchored" data-anchor-id="approach-2-another-geometric-derivation">Approach 2: Another Geometric Derivation</h2>
+<p>If the centripetal acceleration suddenly vanishes, the particle—due to inertia—will continue in a straight line (PQ) tangent to the circular path at the point (P) where the acceleration vanished.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="circ_motion_4.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p>We can think that the particle has “fallen” from Q to S—due to centripetal acceleration—to remain on the circular path. Since, Q to S is in the radial direction and in that direction the tangential velocity <span class="math inline">\(\vec{v}\)</span> has no component, we can consider the “fall” from Q to S as a free-fall starting from rest. So, QS = h = <span class="math inline">\(\frac{1}{2}|\vec{a}|(\Delta t)^2\)</span>. Using Pythagoras in <span class="math inline">\(\triangle\)</span> OPQ: <span class="math display">\[
+\begin{align}
+OQ^2 &amp;= OP^2 + PQ^2 \\
+(R+h)^2 &amp;= R^2 + d^2 \\
+R^2 + 2Rh + h^2 &amp;= R^2 + d^2 \\
+2Rh + h^2 &amp;= d^2
+\end{align}
+\]</span></p>
+<p>As <span class="math inline">\(\Delta t \to 0, h^2 \to 0\)</span> much quicker than <span class="math inline">\(2Rh\)</span> or <span class="math inline">\(d^2\)</span>. As a result, in the limit: <span class="math display">\[
+\begin{align}
+2Rh &amp;= d^2 \\
+2R\cdot \frac{1}{2}|\vec{a}|(\Delta t)^2 &amp;= (v \cdot \Delta t)^2\\
+|\vec{a}| &amp;= \frac{v^2}{R}\
+\end{align}
+\]</span></p>
+</section>
+<section id="approach-3-calculus-proper-derivation" class="level2">
+<h2 class="anchored" data-anchor-id="approach-3-calculus-proper-derivation">Approach 3: Calculus-proper Derivation</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="circ_motion_5.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+<p>The particle’s position can be represented as a radius vector that rotates with time: <span class="math display">\[
+\vec{r}(t) = r \cos{(\theta(t))}\hat{\imath} + r \sin{(\theta(t))}\hat{\jmath}
+\]</span></p>
+<p>Since the motion is uniform circular, <span class="math inline">\(r = \text{constant}\)</span> and <span class="math inline">\(\frac{d\theta(t)}{dt} = \text{constant}\)</span>. Here <span class="math inline">\(\frac{d\theta(t)}{dt}\)</span> is the angular speed which we denote as <span class="math inline">\(\omega\)</span>. <span class="math display">\[
+\begin{align}
+\frac{d\theta(t)}{dt} &amp;= \omega \\
+\theta(t) &amp;= \theta_0 + \int_{0}^{t} \omega\ dt \\
+\theta(t) &amp;= \omega t\ (\text{assume particle starts from +ve x-axis, so } \theta_0 = 0)
+\end{align}
+\]</span></p>
+<p>So, the particle’s position as a function of time is: <span class="math display">\[
+\vec{r}(t) = r \cos{(\omega t)}\hat{\imath} + r \sin{(\omega t)}\hat{\jmath}
+\]</span></p>
+<p>Finding an expression for the velocity is easy: <span class="math display">\[
+\begin{align}
+\vec{v}(t) &amp;= \frac{d}{dt}\vec{r}(t) \\
+        &amp;= -r\omega \sin{(\omega t)}\hat{\imath}+r\omega \cos{(\omega t)}\hat{\jmath}
+\end{align}
+\]</span></p>
+<p>Note, <span class="math inline">\(\vec{r}(t) \cdot \vec{v}(t) = -r^2\omega \sin{(\omega t)}\cos{(\omega t)} + r^2\omega \sin{(\omega t)} \cos{(\omega t)} = 0\)</span>, so <span class="math inline">\(\vec{r}(t) \perp \vec{v}(t)\)</span>–as expected.</p>
+<p>Also, the speed <span class="math inline">\(v = \sqrt{v_x^2 + v_y^2} = r\omega\)</span>.</p>
+<p>We find the acceleration as the derivative of <span class="math inline">\(\vec{v}(t)\)</span>: <span class="math display">\[
+\begin{align}
+\vec{a}(t) &amp;= \frac{d}{dt}\vec{v}(t) \\
+           &amp;= -r\omega^2 \cos{(\omega t)}\hat{\imath}-r\omega^2 \sin{(\omega t)}\hat{\jmath}
+\end{align}
+\]</span></p>
+<p>So, <span class="math inline">\(|\vec{a}(t)| = r\omega^2 = (r\omega)\omega = v\frac{v}{r} = \frac{v^2}{r}\)</span>.</p>
 
 
 </section>
