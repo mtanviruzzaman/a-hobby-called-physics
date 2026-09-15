@@ -18,7 +18,7 @@
     "href": "posts/circular-motion/index.html",
     "title": "Cetripetal Acceleration in Uniform Circular Motion",
     "section": "",
-    "text": "To understand how acceleration is affecting velocity, it is useful to think of acceleration vector having just two components: one parallel to the velocity vector and the other perpendicular to the velocity vector. The parallel component explains changes in speed and the perpendicular component explains changes in direction.\nIn uniform circular motion, the speed is constant. So, the entire acceleration vector consists of the perpendicular component. At a given point on the circle, the velocity vector is tangent to the circular path and the acceleration vector is directed towards the center along a radius.\nWe want to find the magnitude of this acceleration vector."
+    "text": "To understand how acceleration affects velocity, it is useful to think of acceleration vector having just two components: one parallel to the velocity vector and the other perpendicular to the velocity vector. The parallel component explains changes in speed and the perpendicular component explains changes in direction.\nIn uniform circular motion, the speed is constant. So, the entire acceleration vector consists of the perpendicular component. At a given point on the circle, the velocity vector is tangent to the circular path and the acceleration vector is directed towards the center along a radius.\nWe want to find the magnitude of this acceleration vector."
   },
   {
     "objectID": "posts/circular-motion/index.html#approach-1-geometric-derivation",
