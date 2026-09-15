@@ -9,7 +9,7 @@ It is useful to think of acceleration vector having just two components: one par
 
 ![](circ_motion_1.jpg){width=30% fig-align="center"}
 
-In uniform circular motion, the speed is constant. So, the entire acceleration vector consists of the perpendicular component. At a given point on the circle, the velocity vector is tangent to the circular path and the acceleration vector is directed towards the center along a radius.
+In uniform circular motion, the speed is constant. So, the entire acceleration vector consists of the perpendicular component. At a given point on the circle, the velocity vector is tangent to the circular path and the acceleration vector is directed towards the center along a radius. Also, once the speed is fixed, the directional change needed to keep the particle on the circular path is same at every point of the circle, which suggest that the centripetal acceleratioin has a fixed magnitude. 
 
 We want to find the magnitude of this acceleration vector.
 
@@ -61,7 +61,10 @@ If the centripetal acceleration suddenly vanishes, the particle---due to inertia
 
 ![](circ_motion_4.jpg){width=90% fig-align="center"}
 
-We can think that the particle has "fallen" from Q to S---due to centripetal acceleration---to remain on the circular path. Since, Q to S is in the radial direction and in that direction the tangential velocity $\vec{v}$ has no component, we can consider the "fall" from Q to S as a free-fall starting from rest. So, QS = h = $\frac{1}{2}|\vec{a}|(\Delta t)^2$. Using Pythagoras in $\triangle$ OPQ:
+We can think that the particle has "fallen" from Q to S---due to centripetal acceleration---to remain on the circular path. The "fall" from Q to S, unlike in the figure above, does not happen in one shot but happens in infinite number of infinitesimally small radial chunks starting with zero radial speed in the beginning. 
+
+
+So, QS = h = $\frac{1}{2}|\vec{a}|(\Delta t)^2$. Using Pythagoras in $\triangle$ OPQ:
 $$
 \begin{align}
 OQ^2 &= OP^2 + PQ^2 \\
