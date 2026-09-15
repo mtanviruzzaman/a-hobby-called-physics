@@ -12,7 +12,7 @@
 <generator>quarto-1.10.18</generator>
 <lastBuildDate>Sun, 13 Sep 2026 07:00:00 GMT</lastBuildDate>
 <item>
-  <title>Cetripetal Acceleration in Uniform Circular Motion</title>
+  <title>Cetripetal acceleration in uniform circular motion</title>
   <dc:creator>Mohammad Tanviruzzaman</dc:creator>
   <link>https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/circular-motion/</link>
   <description><![CDATA[ 
@@ -29,7 +29,7 @@
 <p>In uniform circular motion, the speed is constant. So, the entire acceleration vector consists of the perpendicular component. At a given point on the circle, the velocity vector is tangent to the circular path and the acceleration vector is directed towards the center along a radius.</p>
 <p>We want to find the magnitude of this acceleration vector.</p>
 <section id="approach-1-geometric-derivation" class="level2">
-<h2 class="anchored" data-anchor-id="approach-1-geometric-derivation">Approach 1: Geometric Derivation</h2>
+<h2 class="anchored" data-anchor-id="approach-1-geometric-derivation">Approach 1: Geometric derivation</h2>
 <p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Balign%7D%0A%5Cleft%7C%20%5Cvec%7Ba%7D_%7Baverage%7D%20%5Cright%7C%20&amp;=%20%5Cfrac%7B%5Cleft%7C%20%5CDelta%20%5Cvec%7Bv%7D%20%5Cright%7C%7D%7B%5CDelta%20t%7D%20%5C%5C%0A%5Cleft%7C%5Cvec%7Ba%7D%5Cright%7C%20&amp;=%20%5Clim_%7B%5CDelta%20t%20%5Cto%200%7D%20%5Cleft%7C%20%5Cvec%7Ba%7D_%7Baverage%7D%20%5Cright%7C%0A%5Cend%7Balign%7D%0A"></p>
 <p>First, we shall find out how <img src="https://latex.codecogs.com/png.latex?%5Cleft%7C%20%5Cvec%7Ba%7D_%7Baverage%7D%20%5Cright%7C"> looks like geometrically and then we shall reason how the geometric view changes when <img src="https://latex.codecogs.com/png.latex?%5CDelta%20t%20%5Cto%200">.</p>
 <p>We make the below observation about vectors in general: if we have two vectors (<img src="https://latex.codecogs.com/png.latex?%5Cvec%7Bv%7D_1"> and <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Bv%7D_2">) perpendicular to two other vectors (<img src="https://latex.codecogs.com/png.latex?%5Cvec%7Br%7D_1"> and <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Br%7D_2">), then these two pairs of vectors have same angle (<img src="https://latex.codecogs.com/png.latex?%5Ctheta">) between them.</p>
@@ -79,7 +79,7 @@ $$
 -->
 </section>
 <section id="approach-2-calculus-based-derivation" class="level2">
-<h2 class="anchored" data-anchor-id="approach-2-calculus-based-derivation">Approach 2: Calculus Based Derivation</h2>
+<h2 class="anchored" data-anchor-id="approach-2-calculus-based-derivation">Approach 2: Calculus-based derivation</h2>
 <p>Idea is to express the particle’s position as a function of time and then take derivatives to first find velocity and then acceleration.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
