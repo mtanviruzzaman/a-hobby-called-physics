@@ -37,9 +37,9 @@ $$
 \theta = \frac{\text{arc-length}}{R} = \frac{v \cdot \Delta t}{R}
 $$
 
-On the other hand, from the right figure above, as $\Delta t \to 0, |\Delta v| \to$ <span style="color: cyan; font-weight: 100">arc-length</span> and we have another expression for $\theta$:
+On the other hand, from the right figure above, as $\Delta t \to 0, |\Delta \vec{v}| \to$ <span style="color: cyan; font-weight: 100">arc-length</span> and we have another expression for $\theta$:
 $$
-\theta = \lim_{\Delta t \to 0} \frac{\text{arc-length}}{v} = \lim_{\Delta t \to 0} \frac{|\Delta \vec{v}|}{v}
+\theta = \frac{\color{cyan}\text{arc-length}}{v} = \lim_{\Delta t \to 0} \frac{|\Delta \vec{v}|}{v}
 $$
 
 From the two expressions of $\theta$, we have:
