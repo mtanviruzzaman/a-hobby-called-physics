@@ -20,7 +20,7 @@
 
 
 
-<p>To understand how acceleration is affecting velocity, it is useful to think of acceleration vector having just two components: one parallel to the velocity vector and the other perpendicular to the velocity vector. The parallel component explains changes in speed and the perpendicular component explains changes in direction.</p>
+<p>To understand how acceleration affects velocity, it is useful to think of acceleration vector having just two components: one parallel to the velocity vector and the other perpendicular to the velocity vector. The parallel component explains changes in speed and the perpendicular component explains changes in direction.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/circular-motion/circ_motion_1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:30.0%"></p>
@@ -44,10 +44,10 @@
 <p><img src="https://mtanviruzzaman.github.io/a-hobby-called-physics/posts/circular-motion/circ_motion_3.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
 </figure>
 </div>
-<p>When we measure <img src="https://latex.codecogs.com/png.latex?%5Ctheta"> in radians, from the left figure above, we have: <img src="https://latex.codecogs.com/png.latex?%0A%5Ctheta%20=%20%5Cfrac%7B%5Ctext%7Bchord-length%7D%7D%7BR%7D%20=%20%5Cfrac%7Bv%20%5Ccdot%20%5CDelta%20t%7D%7BR%7D%0A"></p>
-<p>On the other hand, from the right figure above, as <img src="https://latex.codecogs.com/png.latex?%5CDelta%20t%20%5Cto%200,%20%7C%5CDelta%20v%7C%20%5Cto"> <span style="color: cyan; font-weight: 100">chord-length</span> and we have another expression for <img src="https://latex.codecogs.com/png.latex?%5Ctheta">: <img src="https://latex.codecogs.com/png.latex?%0A%5Ctheta%20=%20%5Clim_%7B%5CDelta%20t%20%5Cto%200%7D%20%5Cfrac%7B%5Ctext%7Bchord-length%7D%7D%7Bv%7D%20=%20%5Clim_%7B%5CDelta%20t%20%5Cto%200%7D%20%5Cfrac%7B%7C%5CDelta%20%5Cvec%7Bv%7D%7C%7D%7Bv%7D%0A"></p>
+<p>When we measure <img src="https://latex.codecogs.com/png.latex?%5Ctheta"> in radians, from the left figure above, we have: <img src="https://latex.codecogs.com/png.latex?%0A%5Ctheta%20=%20%5Cfrac%7B%5Ctext%7Barc-length%7D%7D%7BR%7D%20=%20%5Cfrac%7Bv%20%5Ccdot%20%5CDelta%20t%7D%7BR%7D%0A"></p>
+<p>On the other hand, from the right figure above, as <img src="https://latex.codecogs.com/png.latex?%5CDelta%20t%20%5Cto%200,%20%7C%5CDelta%20v%7C%20%5Cto"> <span style="color: cyan; font-weight: 100">arc-length</span> and we have another expression for <img src="https://latex.codecogs.com/png.latex?%5Ctheta">: <img src="https://latex.codecogs.com/png.latex?%0A%5Ctheta%20=%20%5Clim_%7B%5CDelta%20t%20%5Cto%200%7D%20%5Cfrac%7B%5Ctext%7Barc-length%7D%7D%7Bv%7D%20=%20%5Clim_%7B%5CDelta%20t%20%5Cto%200%7D%20%5Cfrac%7B%7C%5CDelta%20%5Cvec%7Bv%7D%7C%7D%7Bv%7D%0A"></p>
 <p>From the two expressions of <img src="https://latex.codecogs.com/png.latex?%5Ctheta">, we have:</p>
-<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Balign%7D%0A%5Cfrac%7Bv%20%5Ccdot%20%5CDelta%20t%7D%7BR%7D%20&amp;=%20%5Clim_%7B%5CDelta%20t%20%5Cto%200%7D%20%5Cfrac%7B%7C%5CDelta%20%5Cvec%7Bv%7D%7C%7D%7Bv%7D%20%5C%5C%0A%5Cfrac%7Bv%5E2%7D%7BR%7D%20&amp;=%20%5Clim_%7B%5CDelta%20t%20%5Cto%200%7D%20%5Cfrac%7B%7C%5CDelta%20%5Cvec%7Bv%7D%7C%7D%7B%5CDelta%20t%7D%20%5C%5C%0A%5Cfrac%7Bv%5E2%7D%7BR%7D%20&amp;=%20%7C%5Cvec%7Ba%7D%7C%0A%5Cend%7Balign%7D%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Balign%7D%0A%5Clim_%7B%5CDelta%20t%20%5Cto%200%7D%20%5Cfrac%7B%20%5Ctfrac%7B%7C%5CDelta%20%5Cvec%7Bv%7D%7C%7D%7Bv%7D%20%7D%7B%20%5Ctfrac%7Bv%20%5Ccdot%20%5CDelta%20t%7D%7BR%7D%20%7D%20&amp;=%201%20%5C%5C%0A%5Cfrac%7BR%7D%7Bv%5E2%7D%20%5Clim_%7B%5CDelta%20t%20%5Cto%200%7D%20%5Cfrac%7B%20%7C%5CDelta%20%5Cvec%7Bv%7D%7C%20%7D%7B%20%5CDelta%20t%20%7D%20&amp;=%201%20%5C%5C%0A%7C%5Cvec%7Ba%7D%7C%20=%20%5Clim_%7B%5CDelta%20t%20%5Cto%200%7D%20%5Cfrac%7B%20%7C%5CDelta%20%5Cvec%7Bv%7D%7C%20%7D%7B%20%5CDelta%20t%20%7D%20&amp;=%20%5Cfrac%7Bv%5E2%7D%7BR%7D%0A%5Cend%7Balign%7D%0A"></p>
 <p>Consequently, at a sharp (small <img src="https://latex.codecogs.com/png.latex?R">) bend, either slow down or bank the road inward.</p>
 <!-- hand-wavy
 ## Approach 2: Another Geometric Derivation
