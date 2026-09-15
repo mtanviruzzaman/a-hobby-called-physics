@@ -5,7 +5,7 @@ date: "2026-09-13"
 categories: [physics]
 ---
 
-It is useful to think of acceleration vector having just two components: one parallel to the velocity vector and the other perpendicular to the velocity vector. The parallel component explains changes in speed and the perpendicular component explains changes in direction.
+To understand how acceleration is affecting velocity, it is useful to think of acceleration vector having just two components: one parallel to the velocity vector and the other perpendicular to the velocity vector. The parallel component explains changes in speed and the perpendicular component explains changes in direction.
 
 ![](circ_motion_1.jpg){width=30% fig-align="center"}
 
