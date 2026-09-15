@@ -1,5 +1,5 @@
 ---
-title: "Cetripetal Acceleration in Uniform Circular Motion"
+title: "Cetripetal acceleration in uniform circular motion"
 author: "Mohammad Tanviruzzaman"
 date: "2026-09-13"
 categories: [physics]
@@ -13,7 +13,7 @@ In uniform circular motion, the speed is constant. So, the entire acceleration v
 
 We want to find the magnitude of this acceleration vector.
 
-## Approach 1: Geometric Derivation
+## Approach 1: Geometric derivation
 
 $$
 \begin{align}
@@ -83,7 +83,7 @@ $$
 $$ 
 -->
 
-## Approach 2: Calculus Based Derivation
+## Approach 2: Calculus-based derivation
 
 Idea is to express the particle's position as a function of time and then take derivatives to first find velocity and then acceleration.
 
