@@ -28,7 +28,7 @@ We make the below observation about vectors in general: if we have two vectors (
 
 ![](circ_motion_2.jpg){width=100% fig-align="center"}
 
-Now, consider the below situation where at times $t_1$ and $t_2 (= t_1 + \Delta t)$ a particle in uniform circular motion has velocities $\vec{v}_1$ and $\vec{v}_2$. Here $|\vec{v}_1| = |\vec{v}_1| = v$.
+Now, consider the situation where at times $t_1$ and $t_2 (= t_1 + \Delta t)$ a particle in uniform circular motion has velocities $\vec{v}_1$ and $\vec{v}_2$. Here $|\vec{v}_1| = |\vec{v}_1| = v$.
 
 ![](circ_motion_3.jpg){width=100% fig-align="center"}
 
