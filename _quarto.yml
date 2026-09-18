@@ -3,8 +3,9 @@ project:
 
 website:
   description: "A blog built with Quarto"
-  site-url: https://mtanviruzzaman.github.io/a-hobby-called-physics/
-  title: "A Hobby Called Physics"
+  site-url: https://mtanviruzzaman.github.io/for-the-love-of-physics/
+  repo-url: https://github.com/mtanviruzzaman/for-the-love-of-physics
+  title: "For the love of Physics"
   navbar:
     right:
       - about.qmd
@@ -21,7 +22,7 @@ format:
 
 comments:
   giscus:
-    repo: mtanviruzzaman/a-hobby-called-physics
+    repo: mtanviruzzaman/for-the-love-of-physics
     category: Announcements
     mapping: pathname
     reactions-enabled: true
