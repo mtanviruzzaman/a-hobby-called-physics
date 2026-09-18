@@ -16,21 +16,21 @@
   {
     "objectID": "posts/circular-motion/index.html",
     "href": "posts/circular-motion/index.html",
-    "title": "Cetripetal acceleration in uniform circular motion",
+    "title": "Centripetal acceleration in uniform circular motion",
     "section": "",
     "text": "To understand how acceleration affects velocity, it is useful to think of acceleration vector having just two components: one parallel to the velocity vector and the other perpendicular to the velocity vector. The parallel component explains changes in speed and the perpendicular component explains changes in direction.\nIn uniform circular motion, the speed is constant. So, the entire acceleration vector consists of the perpendicular component. At a given point on the circle, the velocity vector is tangent to the circular path and the acceleration vector is directed towards the center along a radius.\nWe want to find the magnitude of this acceleration vector."
   },
   {
     "objectID": "posts/circular-motion/index.html#approach-1-geometric-derivation",
     "href": "posts/circular-motion/index.html#approach-1-geometric-derivation",
-    "title": "Cetripetal acceleration in uniform circular motion",
+    "title": "Centripetal acceleration in uniform circular motion",
     "section": "Approach 1: Geometric derivation",
     "text": "Approach 1: Geometric derivation\n\\[\n\\begin{align}\n\\left| \\vec{a}_{average} \\right| &= \\frac{\\left| \\Delta \\vec{v} \\right|}{\\Delta t} \\\\\n\\left|\\vec{a}\\right| &= \\lim_{\\Delta t \\to 0} \\left| \\vec{a}_{average} \\right|\n\\end{align}\n\\]\nFirst, we shall find out how \\(\\left| \\vec{a}_{average} \\right|\\) looks like geometrically and then we shall reason how the geometric view changes when \\(\\Delta t \\to 0\\).\nWe make the below observation about vectors in general: if we have two vectors (\\(\\vec{v}_1\\) and \\(\\vec{v}_2\\)) perpendicular to two other vectors (\\(\\vec{r}_1\\) and \\(\\vec{r}_2\\)), then these two pairs of vectors have same angle (\\(\\theta\\)) between them.\n\n\n\n\n\nNow, consider the situation where at times \\(t_1\\) and \\(t_2 (= t_1 + \\Delta t)\\) a particle in uniform circular motion has velocities \\(\\vec{v}_1\\) and \\(\\vec{v}_2\\). Here \\(|\\vec{v}_1| = |\\vec{v}_1| = v\\).\n\n\n\n\n\nWhen we measure \\(\\theta\\) in radians, from the left figure above, we have: \\[\n\\theta = \\frac{\\text{arc-length}}{R} = \\frac{v \\cdot \\Delta t}{R}\n\\]\nOn the other hand, from the right figure above, as \\(\\Delta t \\to 0, |\\Delta \\vec{v}| \\to\\) arc-length and we have another expression for \\(\\theta\\): \\[\n\\theta = \\frac{\\color{cyan}\\text{arc-length}}{v} = \\lim_{\\Delta t \\to 0} \\frac{|\\Delta \\vec{v}|}{v}\n\\]\nFrom the two expressions of \\(\\theta\\), we have:\n\\[\n\\begin{align}\n\\lim_{\\Delta t \\to 0} \\frac{ \\tfrac{|\\Delta \\vec{v}|}{v} }{ \\tfrac{v \\cdot \\Delta t}{R} } &= 1 \\\\\n\\frac{R}{v^2} \\lim_{\\Delta t \\to 0} \\frac{ |\\Delta \\vec{v}| }{ \\Delta t } &= 1 \\\\\n|\\vec{a}| = \\lim_{\\Delta t \\to 0} \\frac{ |\\Delta \\vec{v}| }{ \\Delta t } &= \\frac{v^2}{R}\n\\end{align}\n\\]\nConsequently, at a sharp (small \\(R\\)) bend, either slow down or bank the road inward."
   },
   {
     "objectID": "posts/circular-motion/index.html#approach-2-calculus-based-derivation",
     "href": "posts/circular-motion/index.html#approach-2-calculus-based-derivation",
-    "title": "Cetripetal acceleration in uniform circular motion",
+    "title": "Centripetal acceleration in uniform circular motion",
     "section": "Approach 2: Calculus-based derivation",
     "text": "Approach 2: Calculus-based derivation\nIdea is to express the particle’s position as a function of time and then take derivatives to first find velocity and then acceleration.\n\n\n\n\n\nThe particle’s position can be represented as a radius vector that rotates with time: \\[\n\\vec{r}(t) = r \\cos{(\\theta(t))}\\hat{\\imath} + r \\sin{(\\theta(t))}\\hat{\\jmath}\n\\]\nSince the motion is uniform circular, \\(r = \\text{constant}\\) and \\(\\frac{d\\theta(t)}{dt} = \\text{constant}\\). Here \\(\\frac{d\\theta(t)}{dt}\\) is the angular speed which we denote as \\(\\omega\\). \\[\n\\begin{align}\n\\frac{d\\theta(t)}{dt} &= \\omega \\\\\n\\theta(t) &= \\theta_0 + \\int_{0}^{t} \\omega\\ dt \\\\\n\\theta(t) &= \\omega t\\ (\\text{assume particle starts from +ve x-axis, so } \\theta_0 = 0)\n\\end{align}\n\\]\nSo, the particle’s position as a function of time is: \\[\n\\vec{r}(t) = r \\cos{(\\omega t)}\\hat{\\imath} + r \\sin{(\\omega t)}\\hat{\\jmath}\n\\]\nFinding an expression for the velocity is easy: \\[\n\\begin{align}\n\\vec{v}(t) &= \\frac{d}{dt}\\vec{r}(t) \\\\\n        &= -r\\omega \\sin{(\\omega t)}\\hat{\\imath}+r\\omega \\cos{(\\omega t)}\\hat{\\jmath}\n\\end{align}\n\\]\nNote, \\(\\vec{r}(t) \\cdot \\vec{v}(t) = -r^2\\omega \\sin{(\\omega t)}\\cos{(\\omega t)} + r^2\\omega \\sin{(\\omega t)} \\cos{(\\omega t)} = 0\\), so \\(\\vec{r}(t) \\perp \\vec{v}(t)\\)–as expected.\nAlso, the speed \\(v = \\sqrt{v_x^2 + v_y^2} = r\\omega\\).\nWe find the acceleration as the derivative of \\(\\vec{v}(t)\\): \\[\n\\begin{align}\n\\vec{a}(t) &= \\frac{d}{dt}\\vec{v}(t) \\\\\n           &= -r\\omega^2 \\cos{(\\omega t)}\\hat{\\imath}-r\\omega^2 \\sin{(\\omega t)}\\hat{\\jmath}\n\\end{align}\n\\]\nSo, \\(|\\vec{a}(t)| = r\\omega^2 = (r\\omega)\\omega = v\\frac{v}{r} = \\frac{v^2}{r}\\)."
   },
@@ -39,6 +39,6 @@
     "href": "index.html",
     "title": "For the love of Physics",
     "section": "",
-    "text": "Cetripetal acceleration in uniform circular motion\n\n\n\nphysics\n\n\n\n\n\n\n\n\n\nSep 13, 2026\n\n\nMohammad Tanviruzzaman\n\n\n\n\n\n\n\n\n\n\n\n\nHidden history in Physics textbooks\n\n\n\nphysics\n\n\n\n\n\n\n\n\n\nSep 4, 2026\n\n\nMohammad Tanviruzzaman\n\n\n\n\n\nNo matching items"
+    "text": "Centripetal acceleration in uniform circular motion\n\n\n\nphysics\n\n\n\n\n\n\n\n\n\nSep 13, 2026\n\n\nMohammad Tanviruzzaman\n\n\n\n\n\n\n\n\n\n\n\n\nHidden history in Physics textbooks\n\n\n\nphysics\n\n\n\n\n\n\n\n\n\nSep 4, 2026\n\n\nMohammad Tanviruzzaman\n\n\n\n\n\nNo matching items"
   }
 ]
