@@ -52,7 +52,7 @@ $$
 \end{align}
 $$
 
-Consequently, a small drop in speed can make it safe around a sharp bend. For example, a drop of $8\%$ in speed from $60$ mph to $55$ mph allows a $16\%$ smaller radius.
+Consequently, a small drop in speed can make it safe around a sharp bend. For example, for a fixed acceleration (fixed tire-traction, road-bank, etc.), a drop of $8\%$ in speed from $60$ mph to $55$ mph allows a $16\%$ smaller radius.
 
 <!-- hand-wavy
 ## Approach 2: Another Geometric Derivation
