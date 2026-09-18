@@ -223,7 +223,7 @@ window.Quarto = {
 |\vec{a}| = \lim_{\Delta t \to 0} \frac{ |\Delta \vec{v}| }{ \Delta t } &amp;= \frac{v^2}{R}
 \end{align}
 \]</span></p>
-<p>Consequently, at a sharp (small <span class="math inline">\(R\)</span>) bend, either slow down or bank the road inward.</p>
+<p>Consequently, a small drop in speed can make it safe around a sharp bend. For example, a drop of <span class="math inline">\(8\%\)</span> in speed from <span class="math inline">\(60\)</span> mph to <span class="math inline">\(55\)</span> mph allows a <span class="math inline">\(16\%\)</span> smaller radius.</p>
 <!-- hand-wavy
 ## Approach 2: Another Geometric Derivation
 
@@ -267,8 +267,9 @@ $$
 <p>Since the motion is uniform circular, <span class="math inline">\(r = \text{constant}\)</span> and <span class="math inline">\(\frac{d\theta(t)}{dt} = \text{constant}\)</span>. Here <span class="math inline">\(\frac{d\theta(t)}{dt}\)</span> is the angular speed which we denote as <span class="math inline">\(\omega\)</span>. <span class="math display">\[
 \begin{align}
 \frac{d\theta(t)}{dt} &amp;= \omega \\
-\theta(t) &amp;= \theta_0 + \int_{0}^{t} \omega\ dt \\
-\theta(t) &amp;= \omega t\ (\text{assume particle starts from +ve x-axis, so } \theta_0 = 0)
+\int_0^t \frac{d\theta(t)}{dt}\ dt &amp;= \int_0^t \omega\ dt \\
+\theta(t) - \theta(0) &amp;= \omega t \\
+\theta(t) &amp;= \omega t\ (\text{assume particle starts from +ve x-axis, so } \theta(0) = 0)
 \end{align}
 \]</span></p>
 <p>So, the particle’s position as a function of time is: <span class="math display">\[
