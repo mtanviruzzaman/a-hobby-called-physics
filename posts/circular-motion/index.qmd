@@ -1,5 +1,5 @@
 ---
-title: "Cetripetal acceleration in uniform circular motion"
+title: "Centripetal acceleration in uniform circular motion"
 author: "Mohammad Tanviruzzaman"
 date: "2026-09-13"
 categories: [physics]
@@ -52,7 +52,7 @@ $$
 \end{align}
 $$
 
-Consequently, at a sharp (small $R$) bend, either slow down or bank the road inward.
+Consequently, a small drop in speed can make it safe around a sharp bend. For example, a drop of $8\%$ in speed from $60$ mph to $55$ mph allows a $16\%$ smaller radius.
 
 <!-- hand-wavy
 ## Approach 2: Another Geometric Derivation
@@ -98,8 +98,9 @@ Since the motion is uniform circular, $r = \text{constant}$ and $\frac{d\theta(t
 $$
 \begin{align}
 \frac{d\theta(t)}{dt} &= \omega \\
-\theta(t) &= \theta_0 + \int_{0}^{t} \omega\ dt \\
-\theta(t) &= \omega t\ (\text{assume particle starts from +ve x-axis, so } \theta_0 = 0)
+\int_0^t \frac{d\theta(t)}{dt}\ dt &= \int_0^t \omega\ dt \\
+\theta(t) - \theta(0) &= \omega t \\
+\theta(t) &= \omega t\ (\text{assume particle starts from +ve x-axis, so } \theta(0) = 0)
 \end{align}
 $$
 

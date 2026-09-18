@@ -8,11 +8,8 @@ website:
   title: "For the love of Physics"
   navbar:
     right:
-      - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: bluesky
-        href: https://bsky.app/
+        href: https://github.com/mtanviruzzaman/for-the-love-of-physics
 format:
   html:
     theme:
